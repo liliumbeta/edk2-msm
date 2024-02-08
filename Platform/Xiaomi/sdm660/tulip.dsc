@@ -26,3 +26,8 @@
   gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Redmi"
   gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Note 6 Pro"
   gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"tulip"
+
+  #uncomment section underneath and comment out the above section to use full display, including the notch
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x0000a403
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x0000a404
+  gQcomTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|2246|UINT32|0x0000a405
